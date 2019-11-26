@@ -12,8 +12,7 @@ router.get('/', function(req, res, next) {
 /* POST main page */
 router.post('/', function (req, res, next) {
   let url = "http://" + host + ":" + port + "/ticketNumber?hotdog=" +
-             req.body.hotdog + "&hamburger=" + req.body.hamburger + "&salad=" +
-             req.body.salad + "&pizza=" + req.body.pizza + "&soda=" +req.body.soda; 
+             req.body.hotdog; 
 
   request.get(url, function( err, response, body) {
     if(err){

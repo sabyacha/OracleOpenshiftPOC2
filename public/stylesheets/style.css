@@ -31,22 +31,6 @@ body {
   margin-top: 5px;
 }
 
-.form-row img.hamburger {
-  margin-top: -10px;
-}
-
-.form-row img.salad {
-  margin-top: -5px;
-}
-
-.form-row img.pizza {
-  margin-top: 10px;
-}
-
-.form-row img.soda {
-  margin-top: -5px;
-}
-
 .form-row input {
   margin-right: 30%;
   width: 30px;
